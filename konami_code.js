@@ -2,7 +2,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 function init() {
   // Write your JavaScript code inside the init() 
-  const body = document.querySelect('body');
+  const body = document.querySelector('body');
   body.addEventListener('keydown', function(e) {
     let index = 0;
     const key = parseInt(e.detail || e.which);
