@@ -3,5 +3,8 @@ let index = 0;
 function init(e) {
   // Write your JavaScript code inside the init() 
   const key = parseInt(e.detail || e.which);
-  
+  if (key === code[index]) {
+    index++;
+    
+  }
 }
